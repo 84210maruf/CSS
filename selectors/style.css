@@ -8,7 +8,9 @@ h3{
 p.intro {
     background-color: yellow;
   }
-
+p#intro{
+    background-color: rgb(229, 130, 130);
+}
 /*class selector*/
 
 .myclass{
@@ -36,8 +38,32 @@ img[alt]{
     background-color: blue;
 }
 
-/*class selector*/
+/*child selector*/
 
-/*class selector*/
+div > div > p{
+    font-size: 50px;
+    color: green;
+}
+div > div > h3{
+    color: green;
+}
 
-/*class selector*/
+/*Descendant selector*/
+
+div ul li p{
+    color: red;
+}
+li a{color:blue;}
+li a p{
+    font-size: 50px;
+}
+
+/*Addjunction shiblling selector*/
+
+.container p + p + p + p{ /*[Terget is last P tag]*/
+    font-size: 30px;
+}
+
+.container h2 ~ h2{
+    color: blue;
+}
