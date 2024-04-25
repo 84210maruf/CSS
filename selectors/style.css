@@ -1,0 +1,43 @@
+/*element selector*/
+p{
+    color: red;
+}
+h3{
+    color: blueviolet;
+}
+p.intro {
+    background-color: yellow;
+  }
+
+/*class selector*/
+
+.myclass{
+    color: aquamarine;
+}
+
+/*id selector*/
+
+#myid{
+    color: gray;
+}
+
+
+/*
+universal or star selector
+its working with all the html as linked with this css file
+if you see the example look into the universal.html's body(inlineCss)
+*/
+
+
+/*Attribute selector*/
+/*But why .. i don't know*/
+img[alt]{
+    border: 2px solid rgb(255, 0, 0);
+    background-color: blue;
+}
+
+/*class selector*/
+
+/*class selector*/
+
+/*class selector*/
