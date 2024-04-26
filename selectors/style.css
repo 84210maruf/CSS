@@ -31,13 +31,6 @@ if you see the example look into the universal.html's body(inlineCss)
 */
 
 
-/*Attribute selector*/
-/*But why .. i don't know*/
-img[alt]{
-    border: 2px solid rgb(255, 0, 0);
-    background-color: blue;
-}
-
 /*child selector*/
 
 div > div > p{
@@ -67,3 +60,19 @@ li a p{
 .container h2 ~ h2{
     color: blue;
 }
+
+
+/******* Attribute selector *********/
+
+/*[attribute]*/
+img[alt]{
+    border: 2px solid rgb(255, 0, 0);
+    background-color: blue;
+}
+
+/*[attribute=value]*/
+a[target='_blank']{
+    background-color: yellow;
+}
+
+/*[attribute~=value]*/
