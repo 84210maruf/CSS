@@ -7,19 +7,19 @@
     display: flex;
     
 }
-.dropdownMenu ul li{
+ul li{
     margin: 10px;
     list-style: none;
 }
 
-.dropdownItems ul{
+.dropdownItems > ul{
     display: none;
 }
-.dropdownMenu ul li:hover .dropdownItems ul{
+
+
+.dropdownMenu ul li:hover .dropdownItems > ul{
     display: flex;
     position: absolute;
 
     background-color: aquamarine;
 }
-
-.NestedDropdown{display: none;}
