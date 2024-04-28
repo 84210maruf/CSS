@@ -1,0 +1,25 @@
+
+.dropdownMenu ul{
+    /*
+    display:flex;
+    OR
+    */
+    display: flex;
+    
+}
+.dropdownMenu ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+.dropdownItems ul{
+    display: none;
+}
+.dropdownMenu ul li:hover .dropdownItems ul{
+    display: flex;
+    position: absolute;
+
+    background-color: aquamarine;
+}
+
+.NestedDropdown{display: none;}
