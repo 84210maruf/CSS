@@ -23,3 +23,29 @@ ul li{
 
     background-color: aquamarine;
 }
+
+/*Nested Drop Down*/
+
+.NestedDropdown > ul{
+    background-color: burlywood;
+    position: absolute;
+
+    padding: 5px;
+    margin-top: 10px;
+
+/*This ul item not see in display*/
+    display: none;
+}
+
+.dropdownItems ul li:hover .NestedDropdown > ul{
+
+    /*
+    display: inline;
+    display: flex;
+    display:block;
+
+    display:inline-block;
+    etc...
+    */
+    display: block;
+}
