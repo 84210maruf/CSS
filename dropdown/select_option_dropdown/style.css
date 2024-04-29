@@ -1,0 +1,11 @@
+.menu{
+    padding: 10px;
+}
+
+[value='option'] {
+    color: red;
+    display: inline-block;
+    background-color: aquamarine;
+    height: 20px;
+    width: 100px;
+}
