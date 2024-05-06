@@ -1,7 +1,14 @@
+body{
+    margin: 0;
+}
 .container{
     display: flex;
     justify-content:center;
-    align-items: center;
+
+    align-items: center;/*align item use korle height must*/
+    height: 500px; 
+
+    background-color: turquoise;
 }
 
 .circles {
@@ -11,6 +18,11 @@
     border: 2px dashed darkcyan;
     padding: 10px;
     background-color: aquamarine;
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 
     
 
