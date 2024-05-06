@@ -1,79 +1,90 @@
-.circles{
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 
-    width:250px;
+.circles {
+
+    width: 250px;
     height: 200px;
     border: 2px dashed darkcyan;
-
     padding: 10px;
+    background-color: aquamarine;
 
+    
 
 }
 
-.circle-1{
+.circle-1 {
     width: 50px;
     height: 50px;
     background-color: tomato;
 
-
+    position: absolute;
     border-radius: 25px;
 
 
     background-image: url('./Capture.PNG');
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 }
-.circle-2{
+
+.circle-2 {
     width: 50px;
     height: 50px;
     background-color: blue;
 
 
     border-radius: 25px;
-    position:absolute;
+    position: absolute;
     margin-left: 30px;
 
 
 }
-.circle-3{
+
+.circle-3 {
     width: 50px;
     height: 50px;
     background-color: gray;
-    
-    
+
+
     border-radius: 25px;
-    position:absolute;
+    position: absolute;
     margin-left: 60px;
 
 
 }
-.circle-4{
+
+.circle-4 {
     width: 50px;
     height: 50px;
     background-color: greenyellow;
-    
-    
+
+
     border-radius: 25px;
-    position:absolute;
+    position: absolute;
     margin-left: 90px;
 
 
 
-    
+
 }
-.circle-5{
+
+.circle-5 {
     width: 50px;
     height: 50px;
     background-color: rgb(120, 9, 9);
-    
-    
+
+
     border-radius: 25px;
-    position:absolute;
+    position: absolute;
     margin-left: 120px;
 
 
 
     background-image: url('./Capture.PNG');
-    background-size:45px;
+    background-size: 45px;
     background-repeat: no-repeat;
 }
