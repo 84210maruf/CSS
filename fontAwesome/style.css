@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+i{
+    font-size: 50px;
+    color: tomato;
+
+    padding: 10px;
+
+    transform: rotate(30deg);
+}
