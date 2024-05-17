@@ -49,8 +49,8 @@ body{
     background-color: blue;
 
 
-    border-radius: 25px;
     position: absolute;
+    border-radius: 25px;
     margin-left: 30px;
 
 
@@ -62,8 +62,8 @@ body{
     background-color: gray;
 
 
-    border-radius: 25px;
     position: absolute;
+    border-radius: 25px;
     margin-left: 60px;
 
 
@@ -75,11 +75,9 @@ body{
     background-color: greenyellow;
 
 
-    border-radius: 25px;
     position: absolute;
+    border-radius: 25px;
     margin-left: 90px;
-
-
 
 
 }
@@ -90,8 +88,8 @@ body{
     background-color: rgb(120, 9, 9);
 
 
-    border-radius: 25px;
     position: absolute;
+    border-radius: 25px;
     margin-left: 120px;
 
 
