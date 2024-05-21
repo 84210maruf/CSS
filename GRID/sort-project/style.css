@@ -4,8 +4,9 @@ body{
     align-items: center;
     height: 600px;
 
-    background-image: url('./images/nasa-gallacsy.jpg');
-    background-size: cover;
+    /* background-image: url('./images/nasa-gallacsy.jpg');
+    background-size: cover; */
+    background-color: gainsboro;
 }
 .grid-container {
     /* background-color: #5e96ff; */
