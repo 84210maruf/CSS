@@ -1,0 +1,14 @@
+.grid-container {
+    background-color: cornflowerblue;
+    font-size: 30px;
+    /* height: 500px; */
+
+    display: grid;
+    gap: 1px;
+    grid-template: auto;
+}
+
+.grid-container>div{
+    background-color: coral;
+}
+
