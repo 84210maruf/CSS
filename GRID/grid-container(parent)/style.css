@@ -22,6 +22,16 @@ h2 {
 
 /* GRID Container */
 
+#--grid-templete {
+    display: grid;
+
+    gap: 5px;
+	/* grid-template:1fr 1fr 2fr / 1fr 1fr 1fr 2fr; */
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+}
+
+
+
 
 #--grid-templete-columns {
     display: grid;
