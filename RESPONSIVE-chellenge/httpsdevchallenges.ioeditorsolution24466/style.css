@@ -1,0 +1,95 @@
+body{
+    
+    background-color: #E5EAF0;
+
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    font-size: 14px;
+
+}
+.sora- {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+
+section{
+    background-color:#FAFAF9 ;
+    margin: 72px;
+
+    display: grid;
+    gap: 32px;
+
+    grid-template-columns: repeat(12,1fr);
+
+    grid-template-rows:750px ;
+    
+
+}
+
+
+.card{
+
+    grid-column: 5 / 9 ;
+
+    background-color:#FFFFFF ;
+    margin-top: 168px;
+
+
+    width: 368px;
+    height:390px ;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    color: #FAFAF9;
+    width: 336px;
+    margin: 16px 0;
+}
+
+.card-image{
+
+    height:152px;
+
+    border-radius: 15px;
+
+    background-image: url('cactus_img.jpg');
+    background-size: contain;
+
+}
+
+.card-container>input{
+    font-size: 10px;
+    font-weight: 800;
+    color: #883AE1;
+    background-color:#E6D6FC;
+
+    margin: 16px 0;
+    padding: 6px 16px;
+
+    border: none;
+    border-radius: 50px;
+}
+
+.card-container h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #20293A;
+    margin-bottom: 6px;
+}
+p{color:#6C727F ;}
+#p1{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+#p2{margin-bottom: 4px;
+font-size: 12px;}
