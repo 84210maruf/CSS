@@ -12,7 +12,7 @@ body{
 .sora- {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
+    /* font-weight: 400; */
     font-style: normal;
   }
 
@@ -26,7 +26,7 @@ section{
 
     grid-template-columns: repeat(12,1fr);
 
-    grid-template-rows:750px ;
+    grid-template-rows:168px 1fr 168px;
     
 
 }
@@ -35,9 +35,10 @@ section{
 .card{
 
     grid-column: 5 / 9 ;
+    grid-row: 2 / 3;
 
     background-color:#FFFFFF ;
-    margin-top: 168px;
+    /* margin-top: 168px; */
 
 
     width: 368px;
@@ -103,7 +104,6 @@ font-size: 12px;}
         grid-column: 3 / 11 ;
     
         background-color:#FFFFFF ;
-        margin-top: 168px;
     
     
         width: 368px;
@@ -115,4 +115,100 @@ font-size: 12px;}
         justify-content: center;
     }
     
+}
+@media screen and (max-width:500px) {
+
+    /* .card{background-color: #6C727F;} */
+
+    section{
+        padding: 0;
+        
+        background-color:#FAFAF9 ;
+        /* margin: 72px; */
+    
+        /* display: grid;
+        gap: 32px;
+    
+        grid-template-columns: repeat(12,1fr);
+    
+        grid-template-rows:168px 1fr 168px; */
+
+        display: flex;
+        justify-content: center;
+
+        padding: 168px 0;
+        /* margin: auto auto; */
+        
+    
+    }
+    
+
+    .card{
+        padding: 0;
+        margin: 0;
+
+        /* grid-column: 1 / 13 ; */
+    
+        background-color:#FFFFFF ;
+    
+    
+        width: 368px;
+        height:395px ;
+    
+        border-radius: 10px;
+    
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    
+}
+@media screen and (max-width:385px) {
+
+    /* .card{background-color: #6C727F;} */
+
+    section{
+        padding: 0;
+        
+        background-color:#FAFAF9 ;
+        /* margin: 72px; */
+    
+        /* display: grid;
+        gap: 32px;
+    
+        grid-template-columns: repeat(12,1fr);
+    
+        grid-template-rows:168px 1fr 168px; */
+
+        display: flex;
+        justify-content: center;
+
+        padding: 168px 0;
+        /* margin: auto auto; */
+        
+    
+    }
+    
+
+    .card{
+        padding: 0;
+        margin: 0;
+
+        /* grid-column: 1 / 13 ; */
+    
+        background-color:#FFFFFF ;
+    
+    
+        width: 300px;
+        height:415px ;
+    
+        border-radius: 10px;
+    
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    .card-container{
+        color: #FAFAF9;
+        width: 250px;
+        margin: 16px 0;
+    }
 }
