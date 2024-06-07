@@ -1,6 +1,5 @@
 body{
-    
-    background-color: #E5EAF0;
+
 
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
@@ -20,7 +19,7 @@ body{
 
 section{
     background-color:#FAFAF9 ;
-    margin: 72px;
+    /* margin: 72px; */
 
     display: grid;
     gap: 32px;
@@ -42,7 +41,7 @@ section{
 
 
     width: 368px;
-    height:390px ;
+    height:395px ;
 
     border-radius: 10px;
 
@@ -93,3 +92,27 @@ p{color:#6C727F ;}
 }
 #p2{margin-bottom: 4px;
 font-size: 12px;}
+
+
+@media screen and (max-width:650px) {
+
+    /* .card{background-color: #6C727F;} */
+
+    .card{
+
+        grid-column: 3 / 11 ;
+    
+        background-color:#FFFFFF ;
+        margin-top: 168px;
+    
+    
+        width: 368px;
+        height:395px ;
+    
+        border-radius: 10px;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+}
