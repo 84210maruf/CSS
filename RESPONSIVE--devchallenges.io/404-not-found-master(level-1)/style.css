@@ -140,4 +140,63 @@ section {
 }
 
 
-@media (max-width: 760px) {}
+@media (max-width: 330px) {
+    section {
+        /* background-color: mediumvioletred; */
+        /* display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(5, 1fr); */
+        /* grid-template-rows: repeat(14, 40px); */
+    
+        display: flex;
+        flex-direction: column;
+        
+    
+    
+    
+        width: 100%;
+        height: 1080px;
+
+        padding: 0 23px;
+    }
+
+    .header {
+
+        
+        padding-top: 40px;
+    }
+    .header h3{margin: 0;}
+
+    .img {
+
+
+    
+        /* border: 1px solid thistle; */
+    
+        width: 539.22px;
+        height: 447.43px;
+    
+    
+        background-image: url('./resourse/Scarecrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+
+    .content {
+
+    
+    
+        /* background-color: mediumaquamarine; */
+    
+        width: 586px;
+        height: 625px;
+
+    
+    
+    
+    
+    }
+
+}
