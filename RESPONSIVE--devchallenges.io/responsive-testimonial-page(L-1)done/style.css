@@ -18,7 +18,7 @@ body {
 section {
     margin: 5vw;
 
-    display: grid;
+    display: inline grid;
 
     /* gap: 10px; */
 
