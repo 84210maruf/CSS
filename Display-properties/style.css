@@ -35,7 +35,7 @@ h3{
 /* display: inline-block; */
 /* display: flex; */
 /* display: inline-flex; */
-/* display: grid; */
+display: grid;
 /* display: inline-grid; */
 /* display: flow-root; */
 

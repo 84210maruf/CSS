@@ -1,0 +1,36 @@
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+strong{color: red;}
+section{
+    height: 300px;width: 70%;
+    background-color: mediumvioletred;
+
+    display: flex;
+    justify-content: center;align-items: center;
+    
+}
+section > div{
+    height: 100px;width: 100px;
+    background-color: mediumturquoise;
+
+    margin: 5px;
+    /* flex: 1; */
+}
+.one{
+    order: 1;
+}
+.oneplus{
+    height: 50px;width: 70px;
+    border: 3px double maroon;
+    margin: 5px;
+}
+.two{
+    order: 3;
+}
+.three{
+
+    order:2
+}
