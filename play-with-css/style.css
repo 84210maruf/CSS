@@ -1,0 +1,54 @@
+html{font-size: 14px}
+body{background-color: rgb(110, 209, 209);}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.area{
+    height:400px;width: 500px;
+    border: 3px double palegreen;
+    margin: 50px auto;
+}
+.boundary{
+    height: 300px;width: 300px;
+    border: 20px solid pink;
+    margin: 40px auto;
+}
+.plt1{
+    height: 20px;width: 170px;
+    background-color: mediumvioletred;
+    position: relative;
+    top: 58px;right: 14px;
+    transform: rotate(-40deg);
+}
+.plt2{
+    height: 20px;width: 170px;
+    background-color: mediumvioletred;
+    position: relative;
+    top: 38px;left: 104px;
+    transform: rotate(40deg);
+}
+.plt3{
+    height: 20px;width: 230px;
+    background-color: mediumvioletred;
+    position: relative;
+    top: 65px; left: 15px;
+    border-radius:20px 20px 0 0;
+}
+.wave1{
+    height: 10px;width: 170px;
+    border: 5px double black;
+    position: relative;
+    top: 0px;right: 12 px;
+    transform: rotate(-40deg);
+}
+.wave2{
+    height: 10px;width: 170px;
+    border: 5px double black;
+    position: relative;
+    top: -10px;left: 102px;
+    transform: rotate(40deg);
+}
