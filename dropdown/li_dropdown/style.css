@@ -47,5 +47,6 @@ ul li{
     display:inline-block;
     etc...
     */
-    display: block;
+    display: flex;
+    /* right: 0; */
 }
